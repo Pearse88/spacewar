@@ -44,6 +44,7 @@ class Ship
   void render()
   {
     stroke(0,250,0);
+    // draw ship
     line(x - halfW, y + halfW, x, y - halfW);
     line(x, y - halfW, x + halfW, y + halfW);
     line(x + halfW, y + halfW, x, y);
