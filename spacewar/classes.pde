@@ -17,6 +17,7 @@ class Ship
     halfW = w * 0.5f;
   }  
   
+  // move ship
   void update()
   {
     if (keyPressed)
